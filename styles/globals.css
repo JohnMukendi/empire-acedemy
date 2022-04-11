@@ -2,11 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: fantasy;
+    font-family: verdana;
     letter-spacing: 2px;
 }
 :root{
     --green:rgb(0, 265, 153);
+}
+h3{
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    color: var(--green);
 }
 /* header */
 /*nav bar*/
