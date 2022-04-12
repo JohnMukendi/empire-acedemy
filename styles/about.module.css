@@ -1,9 +1,17 @@
-/* FOR RICO */
-.main{
-    background-color: black;
+.header{
+    background-image: linear-gradient(rgba(5, 10, 80, 0.907), rgba(4,9,30,0.77)),
+    url('/about.jpg');
+    object-fit: contain;
+}
+
+.pageTitle{
     color: white;
     text-align: center;
     padding:40px 0px;
-    font-size: 28px;
+    font-size: 32px;
     
+}
+.title{
+    font-size: 32px;
+    letter-spacing: 4px;
 }

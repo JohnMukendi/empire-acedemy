@@ -1,11 +1,18 @@
-/* FOR RICO */
+.header{
+    background-image: linear-gradient(rgba(5, 10, 80, 0.907), rgba(4,9,30,0.77)),
+    url('/Contact.jpg');
+    object-fit: contain;
+    background-position: 30px -20px;
+}
 
-.main{
-    background-color: black;
+.pageTitle{
     color: white;
     text-align: center;
     padding:40px 0px;
-    font-size: 28px;
+    font-size: 32px;
     
-    
+}
+.title{
+    font-size: 32px;
+    letter-spacing: 4px;
 }

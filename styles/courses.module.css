@@ -1,17 +1,19 @@
-/* FOR JOHN */
-.main{
-    background-color: black;
+.header{
+    background-image: linear-gradient(rgba(5, 10, 80, 0.907), rgba(4,9,30,0.77)),
+    url('/campus2.JPEG');
+    
+    background-size: cover;
+    background-position: 30px -50px;
+}
+
+.pageTitle{
     color: white;
     text-align: center;
-    padding:0px 20px;
-    font-size: 28px;
+    padding:40px 0px;
+    font-size: 32px;
     
 }
-.coursesDiv{
-    border: 1px solid white;
-    font-size: 18px;
-}
-.intro-info{
-    font-weight: 100;
-    font-size: 16px;
+.title{
+    font-size: 32px;
+    letter-spacing: 4px;
 }

@@ -1,6 +1,7 @@
 //FOR GRADY
 import Head from 'next/head'
 import styles from '../styles/registration.module.css'
+import Navbar from '../components/navbar';
 
 const registrations = () => {
     return ( 
@@ -8,9 +9,14 @@ const registrations = () => {
         <Head>
             <title>Empire Acedemy | Registrations</title>
         </Head>
-        <div className={styles.main}>
-            <h3>Registrations</h3>
+        <header className={styles.header}>
+        <Navbar/>
+        <div className={styles.pageTitle}>
+            <h3 className={styles.title}>REGISTRATION</h3>
         </div>
+        </header>
+        
+        
         </>
      );
 }
