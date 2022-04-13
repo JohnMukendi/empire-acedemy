@@ -4,15 +4,19 @@ import React, {useState} from 'react';
 
 
 function Navbar() {
+    const cole = "Jean Meechy"
     //THEME SWITCH FUNCTIONALITY
     const [dark,setDark] = useState("switch");
+    const [switchDiv,setSwitchDiv] = useState("mode-switch-div")
     
-    const Switch = ()=>{
+    const themeSwitch = ()=>{
         if (dark == 'switch'){
             setDark("lightmode-switch");
+            setSwitchDiv("light-mode-switch-div")
         }
         else{
             setDark('switch')
+            setSwitchDiv('mode-switch-div')
         }
         
     }
@@ -31,13 +35,11 @@ function Navbar() {
                 <Link href="/contactus"><a>Contact Us</a></Link>
                 <Link href="/about"><a>About Us</a></Link>
             </div>
-            <div className="mode-switch-div" onClick={Switch}>
-                <div className={`${dark}`}></div>
-            </div>
-
+            
         </nav>
     );
 }
 //FUNCTIONALITIES
-
+var cole = "lop"
 export default Navbar;
+module.exports.cole = cole
