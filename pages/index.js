@@ -4,6 +4,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Image from 'next/dist/client/image'
+import ExploreCourses from '../components/exploreCourses'
 
 const imgpath = "/campus image1.jpg"
 const logopath = "/e logo.png"
@@ -14,6 +15,7 @@ export default function Home() {
     <Head>
       <title>Empire Acedemy | Home</title>
     </Head>
+    <exploreCourses/>
     <header className={styles.header}>
     <Navbar />
       <div className={styles.titleDiv}>
@@ -23,6 +25,8 @@ export default function Home() {
         MPIRE ACEDEMY
       </div>
     </header>
+    <ExploreCourses/>
+    
     
 
     </>

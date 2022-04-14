@@ -3,6 +3,8 @@
     width: 100%;
     background-image:linear-gradient(rgba(5, 10, 30, 0.7), rgba(4,9,30,0.7)), url("/campus image1.jpg");
     position: relative;
+    background-position: center;
+    background-size: cover;
 }
 .titleDiv{
     position:absolute;

@@ -7,10 +7,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Anek Tamil', sans-serif;
-    
-    
     font-size: 18px;
-    font-weight: 600;
 }
 .nav-bar{
     display: flex;
@@ -65,7 +62,6 @@
     transition: 0.5s;
     letter-spacing: 3px;
 }
-
 
 
 
