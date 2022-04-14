@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Image from 'next/dist/client/image'
 import Testimonials from '../components/Testimonials'
+import Footer from '../components/Footer'
 
 const imgpath = "/campus image1.jpg"
 const logopath = "/e logo.png"
@@ -26,6 +27,7 @@ export default function Home() {
       </div>
     </header>
     <Testimonials/>
+    <Footer/>
 
     </>
     
