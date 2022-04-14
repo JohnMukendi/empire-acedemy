@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Anek Tamil', sans-serif;
+    font-family: sans-serif;
     
     
     font-size: 18px;
@@ -57,7 +57,7 @@
     transition: 0.2s;
 }
 .nav-links a:hover::after{
-    width: 100%;
+    width: 100%;  
     transition: 0.5s;
 } 
 .nav-links a:hover{
@@ -92,3 +92,6 @@
     }
     
 }
+
+
+
