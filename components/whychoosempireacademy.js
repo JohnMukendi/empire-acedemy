@@ -1,17 +1,21 @@
 import reactDom from "react-dom";
+import Slide from "./swiperCamp";
+
 
 const Whychoose = () => {
     return ( 
+      <>
+      <Slide />
         <div style=
         {
             {
-                color:"black",
+                color:"white",
                 fontSize:"48px",
-                background:"white",
+                background:"black",
                 letterSpacing:"2px",
                 margin:"70px 90px",
-                padding:"0 40px "
-               
+                padding:"0 40px ",
+                borderRadius:"20px"
             }
         }>
             Why Choose Empire Academy?
@@ -94,6 +98,7 @@ Graduates Satisfaction
 </ul>
             
         </div>
+        </>
      );
 }
  
