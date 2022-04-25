@@ -4,41 +4,51 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
+// import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 // import "./styles.css";
 
 // import required modules
-import { Navigation } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 export default function Slide() {
   return (
-<div>
+<div style={{marginBottom:50}}>
     <h1
     style={{
         fontSize:"50px",
         fontWeight:"1000px",
-        marginLeft:"135px",
+        marginLeft:"100px",
+        color:"grey",
+        textAlign:'center',
+        marginTop:30
     
     }}>Success Stories</h1>
     
     <>
       <Swiper
-        navigation={true}
-        modules={[Navigation]}
+        // navigation={true}
+        pagination={{
+          clickable:true
+        }}
+        autoplay={{
+          delay:3000,
+        }}
+        modules={[Autoplay,Pagination]}
         className="mySwiper"
         style={{ height: "300px", width:"100%"}}>
       
         <SwiperSlide style={{display:"flex",justifyContent:'space-between',alignItems:'center'}}>
-          <div style={{ width:"30%"}}><img src="pic1.jpg" style={{width:"400px",marginLeft:"140px", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
+          <div style={{ width:"30%"}}><img src="pic1.jpg" style={{width:"400px",marginLeft:"100px", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
           <div style={{ width:"60%"}}> 
 
-          <p style={{color:"black", fontSize:"20px", width:"600px", opacity:"0.7"}}>
+          <p style={{color:"black", fontSize:"20px", width:"600px", opacity:"0.7",fontWeight:'lighter',fontWeight:'lighter'}}>
           Empire academy trainers are very well trained and will be there to help you throughout the course but this job involves a constant learning process, and you need to learn how to learn
           </p>
 
-          <h1 style={{ fontSize:"25px",fontWeight:"bold" , marginTop:"30px",opacity:"0.7",color:"blue"}}>Tony Kimpembe</h1>
-          <p style={{color:"black", fontSize:"17px", opacity:"0.7"}}>
+          <h1 style={{ fontSize:"25px",fontWeight:"bold" , marginTop:"30px",opacity:"0.7",color:"blue",fontWeight:'lighter'}}>Tony Kimpembe</h1>
+          <p style={{color:"black", fontSize:"17px", opacity:"0.7",fontWeight:'lighter'}}>
           Software Developer at Richfield
           </p>
 
@@ -48,15 +58,15 @@ export default function Slide() {
         </SwiperSlide>
 
         <SwiperSlide style={{display:"flex",justifyContent:'space-between',alignItems:'center'}}>
-          <div style={{ width:"30%"}}><img src="pic2.jpg" style={{width:"400px",marginLeft:"140px", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
+          <div style={{ width:"30%"}}><img src="pic2.jpg" style={{width:"400px",marginLeft:"100px", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
           <div style={{ width:"60%"}}> 
 
-          <p style={{color:"black", fontSize:"20px", width:"600px", opacity:"0.7"}}>
+          <p style={{color:"black", fontSize:"20px", width:"600px", opacity:"0.7",fontWeight:'lighter'}}>
          The biggest advantage i have gotten from the class is that i have a much better understanding of software development and its related details in most of the larger parts.
           </p>
 
-          <h1 style={{ fontSize:"25px",fontWeight:"bold" , marginTop:"30px",opacity:"0.7",color:"blue"}}>Cynthia Dacosta</h1>
-          <p  style={{color:"black", fontSize:"17px", opacity:"0.7"}}>
+          <h1 style={{ fontSize:"25px",fontWeight:"bold" , marginTop:"30px",opacity:"0.7",color:"blue",fontWeight:'lighter'}}>Cynthia Dacosta</h1>
+          <p  style={{color:"black", fontSize:"17px", opacity:"0.7",fontWeight:'lighter'}}>
           Software Developer at AI Business.Co
           </p>
 
@@ -66,15 +76,15 @@ export default function Slide() {
         </SwiperSlide>
 
         <SwiperSlide style={{display:"flex",justifyContent:'space-between',alignItems:'center'}}>
-          <div style={{ width:"30%"}}><img src="pic03.jpg" style={{width:"400px",marginLeft:"140px", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
+          <div style={{ width:"30%"}}><img src="pic03.jpg" style={{width:"400px",marginLeft:"100px", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
           <div style={{ width:"60%"}}> 
 
-          <p style={{color:"black", fontSize:"20px", width:"600px", opacity:"0.7"}}>
+          <p style={{color:"black", fontSize:"20px", width:"600px", opacity:"0.7",fontWeight:'lighter'}}>
            I saw the Empire Academy informative meeting pop-up and it was earlier than th eplanned one so i decided to go. i loved the meeting, it was really fun and convincing and i signed the contract right away.Best decision ever!
           </p>
 
-          <h1 style={{ fontSize:"25px",fontWeight:"bold" , marginTop:"30px",opacity:"0.7",color:"blue"}}>Michelle Orlean</h1>
-          <p  style={{color:"black", fontSize:"17px", opacity:"0.7"}}>
+          <h1 style={{ fontSize:"25px",fontWeight:"bold" , marginTop:"30px",opacity:"0.7",color:"blue",fontWeight:'lighter'}}>Michelle Orlean</h1>
+          <p  style={{color:"black", fontSize:"17px", opacity:"0.7",fontWeight:'lighter'}}>
           Software Developer at Parktown
           </p>
 

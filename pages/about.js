@@ -14,6 +14,7 @@ const about = () => {
             <h3 className={styles.title}>ABOUT US</h3>
         </div>
         </header>
+        
         </>
      );
 }

@@ -27,7 +27,7 @@ function Navbar() {
                 <img id='logo' src="/e logo.png" alt="logo" />
             </div>
             </Link>
-            <div className="nav-links">
+            <div className="nav-links" style={{fontWeight:400,fontFamily:'Arial, Helvetica, sans-serif'}}>
                 <Link href="/"><a>Home</a></Link>
                 <Link href="/registration"><a>Registrations</a></Link>
                 <Link href="/graduates"><a>Graduates</a></Link>
