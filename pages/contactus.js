@@ -12,7 +12,7 @@ const contactus = () => {
         <header className={styles.header}>
         <Navbar/>
         <div className={styles.pageTitle}>
-            <h3 className={styles.title}>ABOUT US</h3>
+            <h3 className={styles.title}>CONTACT US</h3>
         </div>
         </header>
         

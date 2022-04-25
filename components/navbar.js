@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Image from 'next/image';
 import React, {useState} from 'react';
 
-
 function Navbar() {
     
     return (
@@ -13,6 +12,7 @@ function Navbar() {
             </div>
             </Link>
             <div className="nav-links">
+                <faHome/>
                 <Link href="/"><a>Home</a></Link>
                 <Link href="/registration"><a>Registrations</a></Link>
                 <Link href="/graduates"><a>Graduates</a></Link>

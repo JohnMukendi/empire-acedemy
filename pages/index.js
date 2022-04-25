@@ -16,6 +16,7 @@ export default function Home() {
     <>
     <Head>
       <title>Empire Acedemy | Home</title>
+      
     </Head>
     <header className={styles.header}>
       

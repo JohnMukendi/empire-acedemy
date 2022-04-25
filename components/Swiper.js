@@ -30,7 +30,7 @@ export default function Slide() {
         style={{ height: "300px", width:"100%"}}>
       
         <SwiperSlide style={{display:"flex",justifyContent:'space-between',alignItems:'center'}}>
-          <div style={{ width:"30%"}}><img src="pic1.jpg" style={{width:"400px",marginLeft:"100px", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
+          <div style={{ width:"30%"}}><img src="pic1.jpg" style={{width:"400px",marginLeft:"30%", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
           <div style={{ width:"60%"}}> 
 
           <p style={{color:"black", fontSize:"20px", width:"600px", opacity:"0.7"}}>
@@ -42,13 +42,13 @@ export default function Slide() {
           Software Developer at Richfield
           </p>
 
-          
+          chro
           </div>
             
         </SwiperSlide>
 
         <SwiperSlide style={{display:"flex",justifyContent:'space-between',alignItems:'center'}}>
-          <div style={{ width:"30%"}}><img src="pic2.jpg" style={{width:"400px",marginLeft:"140px", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
+          <div style={{ width:"30%"}}><img src="pic2.jpg" style={{width:"400px",marginLeft:"30%", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
           <div style={{ width:"60%"}}> 
 
           <p style={{color:"black", fontSize:"20px", width:"600px", opacity:"0.7"}}>
@@ -66,7 +66,7 @@ export default function Slide() {
         </SwiperSlide>
 
         <SwiperSlide style={{display:"flex",justifyContent:'space-between',alignItems:'center'}}>
-          <div style={{ width:"30%"}}><img src="pic03.jpg" style={{width:"400px",marginLeft:"140px", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
+          <div style={{ width:"30%"}}><img src="pic03.jpg" style={{width:"400px",marginLeft:"30%", borderRadius:"10px", borderTopLeftRadius:"10px",opacity:"0.8"}}/></div>
           <div style={{ width:"60%"}}> 
 
           <p style={{color:"black", fontSize:"20px", width:"600px", opacity:"0.7"}}>
