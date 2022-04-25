@@ -60,25 +60,31 @@
         "courseName":"GRAPHICAL DESIGN STUDIES",
         "courseInfo":"Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.",
         "id":5,
-        "image":"graphicdesign.jpeg"
+        "image":"graphicdesign.jpeg",
+        "fullInfo":"You will have intermediate to expert level knowledge of graphic design theory that you will immediately be able to apply to your career, job, hobby, or company.You will be given a major overview of the most common graphic design practices and the thought process behind these principles.You will be given real-world, applicable projects that you can follow along with and practice.You will achieve the experience and knowledge to take graphic design fundamentals and apply them in your everyday life.You will learn color theory and how it applies to the world around us, from products and art to branding and advertising. You will learn typography theory and how type plays a major role in both print mediums and digital media.You will learn photography composition and how it interacts with graphic design elements to create stunning looking artwork.",
+        "branches":[]
     },
     {
         "courseName":"ENTREPRENEURSHIP STUDIES",
         "courseInfo":"Entrepreneurship is the act of creating a business or businesses while building and scaling it to generate a profit.But as a basic entrepreneurship definition, that one is a bit limiting. The more modern entrepreneurship definition is also about transforming the world by solving big problems. Like bringing about social change or creating an innovative product that challenges the status quo of how we live our lives on a daily basis. ",
         "id":6,
-        "image":"entrepreneurship.jpeg"
+        "image":"entrepreneurship.jpeg",
+        "fullInfo":"The BA Entrepreneurship programme will help you turn your dreams into a reality: you’ll learn the basics of business, get to know the global marketplace and the technologies that businesses will be using in the future, and develop a strong entrepreneurial mind-set. Harness your existing passion for innovation and challenges, and work on building it into a recipe for success. Whether you’re planning on starting your own start-up, or are looking to consult others on the best ways to move their businesses forward, you’ll hone your practical skills in this challenging and exciting BA programme.And the best part? You’ll start working on innovative business projects right from the first semester, to give you all of the practical skills you need for success as a future business leader.Want to know more?"
     },
     {
         "courseName":"FASHION STUDIES",
         "courseInfo":"Fashion design is the creation of design concepts which are then translated into manufactured garments for every occasion. The fashion industry is a worldwide industry which constantly requires a supply of designers and design concepts to feed a voracious consumer demand for clothes and accessories.",
         "id":7,
-        "image":"fashion.jpeg"
+        "image":"fashion.jpeg",
+        "fullInfo":"The BA in Fashion (Honours) is a postgraduate learning programme that will prepare you for entry into a fashion career or further research-based programmes such as a Masters in a cognate field.        The learning programme has been developed by leaders in fashion and retail with the focus of providing you with the most progressive and relevant education in the industry. The Bachelor of Arts (Honours) in Fashion aims to enable students to foster critical and creative thinking strategies to identify, evaluate, and solve problems in a complex world in light of the 4th Industrial Revolution.This programme balances research with real-world case studies. Modules covered require students to engage with higher-order cognitive processes and apply theory to practice within the realm of fashion. Students are required to complete a research project founded on the principles of action research.",
+        "branches":[]
     },
     {
         "courseName":"THEOLOGY",
         "courseInfo":"Theology is the study of God, God's character, God's actions in relation to the cosmos, and especially God's relationship to humanity (the character and history of humankind) in itsresponsive relationship to God within the panorama of the world and history, space and time.",
         "id":8,
-        "image":"theology.jpeg"
+        "image":"theology.jpeg",
+        "fullInfo":"The purpose of this qualification is to deliver learners who can critically apply focused analysis, knowledge and skills in the service and leadership - both lay and ordained - of Christian communities, community organisations and society. This interdisciplinary Qualification produces life-long theological learners who are equipped to raise and debate current issues in African and international contexts. The Qualification also seeks to enable learners develop, clarify and articulate a value system from a Christian perspective. This Qualification is intended for consciousness-raising of learners with respect to issues of justice such as gender, social disparity, disability and the environment, and enable them to develop transformative communities, and contribute to the development of the society as a whole.This qualification will be presented using both online and distance learning modes."
     }
        
 ]

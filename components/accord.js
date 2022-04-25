@@ -21,15 +21,16 @@ export default function ControlledAccordions() {
           id="panel1bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            General settings
+            <b>EMPIRE ACEDEMY</b>
           </Typography>
-          <Typography sx={{ color: 'text.secondary' }}>I am an accordion</Typography>
+          <Typography sx={{ color: 'text.secondary' }}>Acedemic Requirements for any Course</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-            Aliquam eget maximus est, id dignissim quam.
-          </Typography>
+          <ul>
+              <li>70 % in Mathematics</li>
+              <li>60 % in English</li>
+              <li>70 % in Physical Sciences</li>
+          </ul>
         </AccordionDetails>
       </Accordion>
           </div>

@@ -7,6 +7,7 @@ import { useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { FaAngleUp } from "react-icons/fa";
 import ControlledAccordions from "../components/accord";
+import Link from 'next/link'
 //Accordion Imports
 import * as React from "react";
 import Accordion from "@mui/material/Accordion";
@@ -37,6 +38,7 @@ const courses = () => {
          setAngle(<FaAngleDown/>)
      }
   };
+  
   return (
     <>
       <Head>
@@ -60,9 +62,12 @@ const courses = () => {
             <AccordionSummary
               aria-controls="panel1a-content"
               id="panel1a-header"
-              className={styles.subjectDivHeader}
+            
             >
-              {course.courseName}
+              <div key={index} className={styles.subjectDivHeader} onClick={display}>
+                <p>{course.courseName}</p>
+                <div className={styles.icon}>{angleDown}</div>
+            </div>
             </AccordionSummary>
             <AccordionDetails>
               <div className={styles.subjectDiv}
@@ -73,6 +78,11 @@ const courses = () => {
                   key={course.id}
               >
                   {course.fullInfo}
+                  <div className={styles.btnDiv}>
+                    
+                    <Link href="./registration"><a><button className={styles.applyBtn}>APPLY NOW</button></a></Link>
+                  </div>
+                  
               </div>
             </AccordionDetails>
           </Accordion>
