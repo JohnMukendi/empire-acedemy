@@ -65,6 +65,33 @@
     transition: 0.5s;
     letter-spacing: 3px;
 }
+/* #ourteamdivs */
+.cardcontainer{
+    position: relative;
+    margin: 15% auto;
+    width: 90%;
+
+}
+.card{
+    display: inline-block;
+    background-color: white;
+    /* border: solid 1px green; */
+    text-align: center;
+    color: white;
+    /* height: 220px; */
+    width: 30%;
+    margin: 5px;
+    align-self: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(32, 32, 32,0.5);
+    font-size: 10px;
+    padding: 15px 10px;
+    transition: all 0.3s ease-in;
+    
+}
+.card:hover {
+    transform: scale(1.2);
+}
 
 
 
