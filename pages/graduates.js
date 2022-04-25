@@ -75,7 +75,7 @@ const graduates = () => {
             <p
               style={{
                 width: "600px",
-                fontSize: 16,
+                fontSize: 12,
                 fontFamily: "Arial, Helvetica, sans-serif",
                 fontWeight: "lighter",
                 lineHeight: 1.8,
@@ -114,7 +114,7 @@ const graduates = () => {
             <p
               style={{
                 width: "600px",
-                fontSize: 16,
+                fontSize: 12,
                 fontFamily: "Arial, Helvetica, sans-serif",
                 fontWeight: "lighter",
                 lineHeight: 1.8,
@@ -161,7 +161,7 @@ const graduates = () => {
             <p
               style={{
                 width: "600px",
-                fontSize: 16,
+                fontSize: 12,
                 fontFamily: "Arial, Helvetica, sans-serif",
                 fontWeight: "lighter",
                 lineHeight: 1.8,
@@ -198,7 +198,7 @@ const graduates = () => {
             <p
               style={{
                 width: "600px",
-                fontSize: 16,
+                fontSize: 12,
                 fontFamily: "Arial, Helvetica, sans-serif",
                 fontWeight: "lighter",
                 lineHeight: 1.8,
@@ -246,7 +246,7 @@ const graduates = () => {
             <p
               style={{
                 width: "900px",
-                fontSize: 16,
+                fontSize: 12,
                 fontFamily: "Arial, Helvetica, sans-serif",
                 fontWeight: "lighter",
                 lineHeight: 1.8,

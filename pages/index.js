@@ -8,6 +8,7 @@ import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
 
 
+
 const imgpath = "/campus image1.jpg"
 const logopath = "/e logo.png"
 
