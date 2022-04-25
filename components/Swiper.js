@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-// import "./styles.css";
+// import "7410./styles.css";
 
 // import required modules
 import { Navigation } from "swiper";
@@ -42,7 +42,7 @@ export default function Slide() {
           Software Developer at Richfield
           </p>
 
-          
+          chro
           </div>
             
         </SwiperSlide>

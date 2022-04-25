@@ -6,6 +6,8 @@
     background-position: center;
     
     position: relative;
+    background-position: center;
+    background-size: cover;
 }
 .titleDiv{
     position:absolute;
@@ -30,6 +32,9 @@
     height: 100%;
     filter: brightness(150%);
     opacity: 0.9;
+}
+.main{
+    background-color:rgba(4,9,130,0.7)
 }
 /* FOR RESPONSIVENESS */
 @media(max-width:700px){

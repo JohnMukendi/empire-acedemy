@@ -2,24 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image';
 import React, {useState} from 'react';
 
-
 function Navbar() {
-    const cole = "Jean Meechy"
-    //THEME SWITCH FUNCTIONALITY
-    const [dark,setDark] = useState("switch");
-    const [switchDiv,setSwitchDiv] = useState("mode-switch-div")
     
-    const themeSwitch = ()=>{
-        if (dark == 'switch'){
-            setDark("lightmode-switch");
-            setSwitchDiv("light-mode-switch-div")
-        }
-        else{
-            setDark('switch')
-            setSwitchDiv('mode-switch-div')
-        }
-        
-    }
     return (
         <nav className="nav-bar">
             <Link href="/">
@@ -28,6 +12,7 @@ function Navbar() {
             </div>
             </Link>
             <div className="nav-links">
+                <faHome/>
                 <Link href="/"><a>Home</a></Link>
                 <Link href="/registration"><a>Registrations</a></Link>
                 <Link href="/graduates"><a>Graduates</a></Link>
@@ -39,7 +24,5 @@ function Navbar() {
         </nav>
     );
 }
-//FUNCTIONALITIES
-var cole = "lop"
+
 export default Navbar;
-module.exports.cole = cole

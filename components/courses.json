@@ -1,0 +1,90 @@
+[
+    {
+        "courseName":"INFORMATION TECHNOLOGY",
+        "courseInfo":"Information technology (IT) is the use of any computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data. Typically, IT is used in the context of business operations, as opposed to technology used for personal or entertainment purposes.The commercial use of IT encompasses both computer technology and telecommunications.",
+        "id":1,
+        "image":"it.jpeg",
+        "fullInfo":"The Higher Certificate in Information Technology is a one year programme and provides a structured programme for persons wishing to work as information technology support staff in public and private sector organisations. The qualification aims to develop an integrated conceptual understanding, synthesis and application of information technology principles.An accredited IT Certificate will also develop communication and project management skills, and provide students with skills in information technology support. The MANCOSA IT programme covers fundamental concepts and components into the technology and operation of modern information systems.Outcomes",
+        "branches":["Web Development",
+                    "Software Development",
+                    "Business Analysis",
+                    "Network Administration",
+                    "Database management"
+                ]
+    },
+    {
+        "courseName":"ARCHITECTURE STUDIES",
+        "courseInfo":"Architecture is a passion, a vocation, a calling — as well as a science and a business. It has been described as a social art and also an artful science. Architecture must be of the highest quality of design. Architecture provides, in the words of Marcus Vitruvius, the great Roman architect and historian, “firmness, commodity and delight.",
+        "id":2,
+        "image":"architecture.jpeg",
+        "fullInfo":"The Bachelor of Architectural Studies (BAS) programme is a three-year, full-time course of study offering a gateway to a potentially diverse field of professional career paths, both within the architectural discipline or peripheral to it.Architecture is the generation of social and cultural heritage in the form of built spaces. It is a profession with long-lasting influences and consequences for both current and future generations. Although architects are primarily responsible for the design of buildings and their surrounding environments, the profession is evolving to include other important forms of design, including space planning, building materials, and the integration of the built and ecological environments, amongst other possibilities. The BAS programme is structured to produce graduates who can participate across a broad field of professions in both the larger design and construction industries. Due to the integration of courses and emphasis on coordinated application of skills, part-time studies are not available, although in exceptional circumstances it may be possible to spread some years of study over more than one year, with appropriate planning and approval by the degree convenor.",
+        "branches":[
+            "Architectural technology",
+            "Architectural engeneering",
+            "Architectural design",
+            "Architectural history",
+            "Interior architecture",
+            "Landscape architecture",
+            "Urban planning"
+        ]
+    },
+    {
+        "courseName":"MUSIC STUDIES",
+        "courseInfo":" This degree gives you an opportunity to experience and learn from multiple music traditions. This pragmatic and philosophical programme exposes you to new and different music domains, skills, and knowledge – all of which bette prepares you for a variety of music careers.",
+        "id":3,
+        "image":"music.jpeg",
+        "fullInfo":"Experience and learn from multiple music traditions and disciplines. This degree gives you an opportunity to experience and learn from multiple music traditions.This pragmatic and philosophical programme exposes you to new and different music domains, skills and knowledge all of which better prepares you for a variety of music careers. Students develop their practical skills with a jazz or classical music focus, voice for musical theatre is an additional option. In each of these choices you will encounter music from South Africa as well as international musical genres. Beyond this chosen practical focus, all students can benefit from learning skills that work across musical genres, such as music technology and studio practice, composition and arrangement and community music-making among others.",
+        "branches":[
+            "Ethnomusicology",
+            "Music History",
+            "Music Theory",
+            "Systematic Musicology"
+        ]
+    },
+    {
+        "courseName":"TRADING STUDIES",
+        "courseInfo":"Learning how to trade the financial markets begins with educating oneself on reading the financial markets via charts and price action.Use technical analysis, in conjunction with fundamental analysis, to decipher price action.Practice makes perfect or, at the very least, it allows the neophyte to test out theories before committing real funds.",
+        "id":4,
+        "image":"trading.jpeg",
+        "fullInfo":"Thanks to the internet, stock trading is no longer just the domain of investment professionals. Now, anyone with a computer or mobile device has the opportunity to make money trading stocks. An increasing number of people are turning to stock trading as a way to supplement their income, while those who are the most committed to acquiring the requisite knowledge can do quite well financially While it isn't exactly rocket science, the learning curve for becoming a successful stock trader can be very steep, especially for those just getting started. It's possible to learn stock trading theory by reading a book, but gaining the practical knowledge, skills, and confidence to trade with your own money requires more extensive training with real-time support. That's what a quality, online stock trading course can offer.This roundup aims to help those interested in becoming savvy stock traders understand what a quality stock trading course can offer and identify the best courses in 6 different categories.",
+        "branches":[
+            "Scalping",
+            "Day Trading",
+            "Momentum trading",
+            "Swing trading",
+            "Position Trading"
+        ]
+        
+    },
+    {
+        "courseName":"GRAPHICAL DESIGN STUDIES",
+        "courseInfo":"Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.",
+        "id":5,
+        "image":"graphicdesign.jpeg",
+        "fullInfo":"You will have intermediate to expert level knowledge of graphic design theory that you will immediately be able to apply to your career, job, hobby, or company.You will be given a major overview of the most common graphic design practices and the thought process behind these principles.You will be given real-world, applicable projects that you can follow along with and practice.You will achieve the experience and knowledge to take graphic design fundamentals and apply them in your everyday life.You will learn color theory and how it applies to the world around us, from products and art to branding and advertising. You will learn typography theory and how type plays a major role in both print mediums and digital media.You will learn photography composition and how it interacts with graphic design elements to create stunning looking artwork.",
+        "branches":[]
+    },
+    {
+        "courseName":"ENTREPRENEURSHIP STUDIES",
+        "courseInfo":"Entrepreneurship is the act of creating a business or businesses while building and scaling it to generate a profit.But as a basic entrepreneurship definition, that one is a bit limiting. The more modern entrepreneurship definition is also about transforming the world by solving big problems. Like bringing about social change or creating an innovative product that challenges the status quo of how we live our lives on a daily basis. ",
+        "id":6,
+        "image":"entrepreneurship.jpeg",
+        "fullInfo":"The BA Entrepreneurship programme will help you turn your dreams into a reality: you’ll learn the basics of business, get to know the global marketplace and the technologies that businesses will be using in the future, and develop a strong entrepreneurial mind-set. Harness your existing passion for innovation and challenges, and work on building it into a recipe for success. Whether you’re planning on starting your own start-up, or are looking to consult others on the best ways to move their businesses forward, you’ll hone your practical skills in this challenging and exciting BA programme.And the best part? You’ll start working on innovative business projects right from the first semester, to give you all of the practical skills you need for success as a future business leader.Want to know more?"
+    },
+    {
+        "courseName":"FASHION STUDIES",
+        "courseInfo":"Fashion design is the creation of design concepts which are then translated into manufactured garments for every occasion. The fashion industry is a worldwide industry which constantly requires a supply of designers and design concepts to feed a voracious consumer demand for clothes and accessories.",
+        "id":7,
+        "image":"fashion.jpeg",
+        "fullInfo":"The BA in Fashion (Honours) is a postgraduate learning programme that will prepare you for entry into a fashion career or further research-based programmes such as a Masters in a cognate field.        The learning programme has been developed by leaders in fashion and retail with the focus of providing you with the most progressive and relevant education in the industry. The Bachelor of Arts (Honours) in Fashion aims to enable students to foster critical and creative thinking strategies to identify, evaluate, and solve problems in a complex world in light of the 4th Industrial Revolution.This programme balances research with real-world case studies. Modules covered require students to engage with higher-order cognitive processes and apply theory to practice within the realm of fashion. Students are required to complete a research project founded on the principles of action research.",
+        "branches":[]
+    },
+    {
+        "courseName":"THEOLOGY",
+        "courseInfo":"Theology is the study of God, God's character, God's actions in relation to the cosmos, and especially God's relationship to humanity (the character and history of humankind) in itsresponsive relationship to God within the panorama of the world and history, space and time.",
+        "id":8,
+        "image":"theology.jpeg",
+        "fullInfo":"The purpose of this qualification is to deliver learners who can critically apply focused analysis, knowledge and skills in the service and leadership - both lay and ordained - of Christian communities, community organisations and society. This interdisciplinary Qualification produces life-long theological learners who are equipped to raise and debate current issues in African and international contexts. The Qualification also seeks to enable learners develop, clarify and articulate a value system from a Christian perspective. This Qualification is intended for consciousness-raising of learners with respect to issues of justice such as gender, social disparity, disability and the environment, and enable them to develop transformative communities, and contribute to the development of the society as a whole.This qualification will be presented using both online and distance learning modes."
+    }
+       
+]
