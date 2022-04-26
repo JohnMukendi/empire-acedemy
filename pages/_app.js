@@ -1,6 +1,6 @@
 import Layout from '../components/layout'
 import '../styles/globals.css'
-import Footer from '../components/Footer'
+// import {FaHeart} from 'react-icons/fa'
 
 function MyApp({ Component, pageProps }) {
   return (
