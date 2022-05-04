@@ -20,7 +20,7 @@ export default function Home() {
       <link></link>
       
     </Head>
-    <header className={styles.header}>
+    <header className={styles.header} style={{}}>
       <Navbar />
     
       <div className={styles.titleDiv}>

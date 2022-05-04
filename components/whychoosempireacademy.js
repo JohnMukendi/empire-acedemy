@@ -4,7 +4,7 @@ import Slide from "./swiperCamp";
 
 const Whychoose = () => {
     return ( 
-      <div style={{background:"lightgrey"}}>
+      <div style={{}}>
       <div>
         <h1 style={
         {
@@ -13,22 +13,8 @@ const Whychoose = () => {
           padding:"50px 10px",
           fontSize:"40px"
         }}>WELCOME TO EMPIRE ACADEMY</h1>
-        <p style={{ width:"1250px",marginLeft:"50px", textAlign:"center", fontWeight:"lighter"}}>We believe in the aspiring leaders of tomorrow looking to branch into international industries , as long as this is something they’re curious about. We created a solid setup where our instructors share knowledge and experience gained through years of working all around the world, providing you with guidance in finding a job after the courses we have to offer.
-              We helped thousands of people get upskill and prepare them for the vast industries all around the world.
-              become part of our family!
-              Make IT happen!We believe in the aspiring leaders of tomorrow looking to branch into international industries , as long as this is something they’re curious about. We created a solid setup where our instructors share knowledge and experience gained through years of working all around the world, providing you with guidance in finding a job after the courses we have to offer.
-              We helped thousands of people get upskill and prepare them for the vast industries all around the world.
-              become part of our family!
-              Make IT happen!We believe in the aspiring leaders of tomorrow looking to branch into international industries , as long as this is something they’re curious about. We created a solid setup where our instructors share knowledge and experience gained through years of working all around the world, providing you with guidance in finding a job after the courses we have to offer.
-              We helped thousands of people get upskill and prepare them for the vast industries all around the world.
-              become part of our family!
-              Make IT happen!We believe in the aspiring leaders of tomorrow looking to branch into international industries , as long as this is something they’re curious about. We created a solid setup where our instructors share knowledge and experience gained through years of working all around the world, providing you with guidance in finding a job after the courses we have to offer.
-              We helped thousands of people get upskill and prepare them for the vast industries all around the world.
-              become part of our family!
-              Make IT happen!We believe in the aspiring leaders of tomorrow looking to branch into international industries , as long as this is something they’re curious about. We created a solid setup where our instructors share knowledge and experience gained through years of working all around the world, providing you with guidance in finding a job after the courses we have to offer.
-              We helped thousands of people get upskill and prepare them for the vast industries all around the world.
-              become part of our family!
-              Make IT happen!We believe in the aspiring leaders of tomorrow looking to branch into international industries , as long as this is something they’re curious about. We created a solid setup where our instructors share knowledge and experience gained through years of working all around the world, providing you with guidance in finding a job after the courses we have to offer.
+        <p style={{}}>
+              We believe in the aspiring leaders of tomorrow looking to branch into international industries , as long as this is something they’re curious about. We created a solid setup where our instructors share knowledge and experience gained through years of working all around the world, providing you with guidance in finding a job after the courses we have to offer.
               We helped thousands of people get upskill and prepare them for the vast industries all around the world.
               become part of our family!
               Make IT happen!</p>
