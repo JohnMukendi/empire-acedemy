@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Image from 'next/dist/client/image'
 import ExploreCourses from '../components/exploreCourses'
 import Testimonials from '../components/Testimonials'
+import Whychoose from '../components/whychoosempireacademy'
   
 
 const imgpath = "/campus image1.jpg"
@@ -16,11 +17,12 @@ export default function Home() {
     <>
     <Head>
       <title>Empire Acedemy | Home</title>
+      <link></link>
       
     </Head>
-    <header className={styles.header}>
-      
-    <Navbar />
+    <header className={styles.header} style={{}}>
+      <Navbar />
+    
       <div className={styles.titleDiv}>
         <div className={styles.logoDiv2}>
           <img src={logopath} alt="logo" />
@@ -28,9 +30,12 @@ export default function Home() {
         MPIRE ACEDEMY
       </div>
     </header>
-    
-    <ExploreCourses/>
+
+    <Whychoose/>
     <Testimonials/>
+    <ExploreCourses/>
+    
+    
     
     </>
     )

@@ -5,10 +5,7 @@ import Slide from "./Swiper";
         
     
     <div>
-  
-
     <Slide/>
-
     </div>
     
     )

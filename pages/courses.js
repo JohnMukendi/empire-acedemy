@@ -40,7 +40,7 @@ const courses = () => {
   };
   
   return (
-    <>
+    <div>
       <Head>
         <title>Empire Acedemy | Courses</title>
       </Head>
@@ -51,7 +51,7 @@ const courses = () => {
         </div>
       </header>
       <ControlledAccordions />
-      <p className={styles.pageInfo}>
+      <p className={styles.pageInfo} style={{fontWeight:"lighter"}}>
         Find out more about your dream Career Path and you can trust that we
         will provide you with the best tools to optimize your learning
         expirience here at <b>EMPIRE ACEDEMY</b>!
@@ -62,6 +62,7 @@ const courses = () => {
             <AccordionSummary
               aria-controls="panel1a-content"
               id="panel1a-header"
+              
             
             >
               <div key={index} className={styles.subjectDivHeader} onClick={display}>
@@ -88,7 +89,7 @@ const courses = () => {
           </Accordion>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

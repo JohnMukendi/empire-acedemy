@@ -5,7 +5,9 @@ import React, {useState} from 'react';
 function Navbar() {
     
     return (
-        <nav className="nav-bar">
+        <>
+
+<nav className="nav-bar" style={{}}>
             <Link href="/">
             <div className="logo-div">
                 <img id='logo' src="/e logo.png" alt="logo" />
@@ -22,7 +24,11 @@ function Navbar() {
             </div>
             
         </nav>
-    );
+        
+
+        </>
+        );
 }
+
 
 export default Navbar;

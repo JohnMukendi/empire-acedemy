@@ -2,7 +2,6 @@
 .header{
     background-image: linear-gradient(rgba(5, 10, 80, 0.907), rgba(4,9,30,0.77)),
     url('/campus2.JPEG');
-    
     background-size: cover;
     background-position: 30px -50px;
 }
@@ -21,7 +20,7 @@
 .coursesSwiper{
     position: relative;
     width: 70%;
-    box-shadow: 1px 1px 10px blueviolet;
+    /* box-shadow: 1px 1px 10px blueviolet; */
 }
 .courseDiv:hover{
     cursor: pointer;
@@ -39,7 +38,7 @@
     justify-content: center;
     margin: -10px;
     text-align: center;
-    background: linear-gradient(rgba(5, 10, 80, 0.907), rgba(4,9,30,0.77));
+    background: linear-gradient(to right, #00093c,#2d0b00);
     color: white;
     padding: 20px 0px;
     font-size: 18px;
@@ -58,7 +57,7 @@
 
 .subjectDivHeader:hover{
     cursor: pointer;
-    background: linear-gradient(rgba(25, 30, 100, 0.907), rgba(24,29,50,0.77));
+    background: linear-gradient(to right, #00093c,#2d0b00);
 }
 .subjectDiv{
     
@@ -80,11 +79,11 @@
     border-style: none;
     color: white;
     font-weight: 550;
-    background: linear-gradient(rgba(25, 30, 100, 0.907), rgba(24,29,50,0.77));
+    background: linear-gradient(to right, #00093c,#2d0b00);
     margin: 50% 0px;
 }
 .applyBtn:hover{
     cursor: pointer;
-    background: linear-gradient(rgba(25, 30, 180, 0.907), rgba(24,29,250,0.77));
+    background: linear-gradient(to right, #00093c,#2d0b00);
 
 }

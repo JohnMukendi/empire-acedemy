@@ -19,16 +19,16 @@ const ExploreCourses = () => {
       <div
     
         style={{
-          background: "linear-gradient(rgb(10,10,40),rgb(10,10,80))",
+          background: "lightgrey",
           padding: "40px",
-          color: "white",
-          margin: "8px",
-          borderRadius: "5%",
-          boxShadow: "5px 5px 50px rgb(10,10,80)",
+          color: "black",
+          // margin: "8px",
+          marginTop:"-20px"
+         
         }}
       >
         
-        <div style={{ padding: "10px 0px 40px 0px" }}>
+        <div style={{ padding: "10px 0px 20px 0px" }}>
           <h2
             style={{
               fontSize: "40px",
@@ -38,8 +38,8 @@ const ExploreCourses = () => {
           >
             EXPLORE OUR COURSES
           </h2>
-          <p style={{ textAlign: "center", fontSize: "18px" }}>
-            Here at <b>Empire Acedemy</b> we offer you 8 subject variations that
+          <p style={{marginLeft:"386px", fontSize: "18px",width:"600px", fontWeight:"lighter"}}>
+            Here at <b>Empire Acedemy</b> we offer you 8 subject variations that <br/>
             are widely considered as important jobs and world changing
           </p>
         </div>
