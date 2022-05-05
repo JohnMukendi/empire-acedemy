@@ -24,6 +24,7 @@ const graduates = () => {
           flexDirection: "column",
           width: "100%",
           alignItems: "center",
+          background:"lightgrey"
         }}
       >
         <p style={{ fontSize: "50px", marginLeft: "20px" }}>LEARN ABOUT OUR</p>
@@ -50,13 +51,14 @@ const graduates = () => {
 
       <div
         style={{
-          backgroundColor: "lightgrey",
+          backgroundColor: "white",
           fontSize: "20px",
           paddingTop: 40,
           flexDirection: "column",
         }}
       >
-        <h1 style={{ textAlign: "center" }}>GRADUATE STORIES</h1>
+            
+        <h1 style={{ textAlign: "center", color: "#4a42ec",fontSize:"50px"}}>GRADUATE STORIES</h1>
 
         <div
           style={{
@@ -66,12 +68,12 @@ const graduates = () => {
           }}
         >
           <div>
-            <img src="student1.jpg" style={{ marginTop:"150px",width:"500px" , borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px"}} />
+            <img src="pic-1.png" style={{ marginTop:"150px",width:"300px" , borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px", boxShadow:" 0 3rem 3rem rgba(0, 0, 0, 0.3)"}} />
           </div>
           <div style={{ marginLeft: "5px", marginTop:"150px" }}>
-            <h1 style={{ marginTop: 10 }}>Pavel Pšečuk</h1>
+            <h1 style={{ marginTop: 10 ,  color: "#4a42ec",}}>Pavel Pšečuk</h1>
             <br />
-            <p style={{ marginBottom: 10 }}>DevOps Engineer</p>
+            <p style={{ marginBottom: 10 , color: "#4a42ec" }}>DevOps Engineer</p>
             <p
               style={{
                 width: "600px",
@@ -108,9 +110,9 @@ const graduates = () => {
           }}
         >
           <div style={{ marginLeft: "40px", marginTop:"100px" }}>
-            <h1 style={{ marginTop: 10 }}>Adina Dumitrescu</h1>
+            <h1 style={{ marginTop: 10, color: "#4a42ec", }}>Adina Dumitrescu</h1>
             <br />
-            <p style={{ marginBottom: 10 }}>Software Developer</p>
+            <p style={{ marginBottom: 10 , color: "#4a42ec" }}>Software Developer</p>
             <p
               style={{
                 width: "600px",
@@ -139,7 +141,7 @@ const graduates = () => {
             </p>
           </div>
           <div>
-            <img src="student2.jpg" style={{marginTop:"110px",width:"500px" , borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px"}} />
+            <img src="pic-2.png" style={{marginTop:"110px",width:"300px" , borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px", boxShadow:" 0 3rem 3rem rgba(0, 0, 0, 0.3)"}} />
           </div>
         </div>
 
@@ -152,12 +154,12 @@ const graduates = () => {
           }}
         >
           <div>
-            <img src="student3.jpg" style={{marginTop:"110px",width:"600px" , borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px"}}/>
+            <img src="pic-5.png" style={{marginTop:"110px",width:"300px" , borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px", boxShadow:" 0 3rem 3rem rgba(0, 0, 0, 0.3)"}}/>
           </div>
           <div style={{ marginLeft: "40px",marginTop:"130px"  }}>
-            <h1 style={{ marginTop: 10 }}>Gabor Gyarmati</h1>
+            <h1 style={{ marginTop: 10 , color: "#4a42ec",}}>Gabor Gyarmati</h1>
             <br />
-            <p style={{ marginBottom: 10 }}>DevOps Engineer</p>
+            <p style={{ marginBottom: 10  , color: "#4a42ec"}}>DevOps Engineer</p>
             <p
               style={{
                 width: "600px",
@@ -192,9 +194,9 @@ const graduates = () => {
           }}
         >
           <div style={{ marginLeft: "40px", marginTop:"150px" }}>
-            <h1 style={{ marginTop: 10 }}>Ada Palacean (Mican)</h1>
+            <h1 style={{ marginTop: 10 , color: "#4a42ec",}}>Ada Palacean (Mican)</h1>
             <br />
-            <p style={{ marginBottom: 10 }}>Software Developer</p>
+            <p style={{ marginBottom: 10 , color: "#4a42ec"}}>Software Developer</p>
             <p
               style={{
                 width: "600px",
@@ -224,7 +226,7 @@ const graduates = () => {
             </p>
           </div>
           <div>
-            <img src="student4.jpg" style={{marginTop:"110px",width:"500px" , borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px"}} />
+            <img src="pic-6.png" style={{marginTop:"110px",width:"300px" , borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px", boxShadow:" 0 3rem 3rem rgba(0, 0, 0, 0.3)"}} />
           </div>
         </div>
 
@@ -237,15 +239,15 @@ const graduates = () => {
           }}
         >
           <div>
-            <img src="student5.jpg" style={{marginTop:"110px",width:"300px", borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px"}} />
+            <img src="pic-4.png" style={{marginTop:"110px",width:"300px", borderTopRightRadius:"10px",  borderTopLeftRadius:"10px", borderBottomRightRadius:"10px",  borderBottomLeftRadius:"10px", boxShadow:" 0 3rem 3rem rgba(0, 0, 0, 0.3)"}} />
           </div>
           <div style={{ marginLeft: "40px" }}>
-            <h1 style={{ marginTop: 20 }}>Jasmin Beaumont</h1>
+            <h1 style={{ marginTop: 10 , color: "#4a42ec",}}>Jasmine Beaumont</h1>
             <br />
-            <p style={{ marginBottom: 30 }}>Architecture</p>
+            <p style={{ marginBottom: 30, color: "#4a42ec" }}>Architecture</p>
             <p
               style={{
-                width: "900px",
+                width: "700px",
                 fontSize: 12,
                 fontFamily: "Arial, Helvetica, sans-serif",
                 fontWeight: "lighter",
@@ -274,13 +276,15 @@ const graduates = () => {
         </div>
       </div>
 
-      <div style={{ fontSize: "20px", flexDirection: "column", width: "100%" }}>
+      <div style={{ fontSize: "20px", flexDirection: "column", width: "100%", background:"lightgrey", paddingTop:"40px" }}>
         <h1
           style={{
             marginLeft: "50px",
             marginTop: 70,
             marginBottom: 90,
             textAlign: "center",
+            color: "#4a42ec",
+            fontSize:"50px"
           }}
         >
           BEST STUDENTS PROJECT'S
@@ -290,6 +294,7 @@ const graduates = () => {
             flexDirection: "column",
             marginLeft: "50px",
             marginTop: "30px",
+            marginBottom:"30px"
           }}
         >
           <div
@@ -300,12 +305,12 @@ const graduates = () => {
             }}
           >
             <div>
-              <img src="applicationpic.webp" />
+              <img src="applicationpic.webp" style={{ width:"70%" ,boxShadow:" 0 3rem 3rem rgba(0, 0, 0, 0.3)"}} />
             </div>
             <div style={{ marginLeft: "40px" }}>
-              <h1 style={{ marginTop: 20 }}>The New You Web</h1>
+              <h1 style={{ marginTop: 10,  color: "#4a42ec", }}>The New You Web</h1>
               <br />
-              <h1 style={{ marginBottom: 30 }}>Application</h1>
+              <h1 style={{ marginBottom: 30 , color: "#4a42ec",}}>Application</h1>
               <p
                 style={{
                   width: "600px",
@@ -337,9 +342,9 @@ const graduates = () => {
             }}
           >
             <div style={{ marginLeft: "40px" }}>
-              <h1 style={{ marginTop: 20 }}>Taxipy</h1>
+              <h1 style={{ marginTop: 10, color: "#4a42ec", }}>Taxipy</h1>
               <br />
-              <h1 style={{ marginBottom: 30 }}>Application</h1>
+              <h1 style={{ marginBottom: 30 , color: "#4a42ec",}}>Application</h1>
               <p
                 style={{
                   width: "600px",
@@ -361,7 +366,7 @@ const graduates = () => {
               </p>
             </div>
             <div>
-              <img src="taxipy.webp" />
+              <img src="taxipy.webp" style={{ width:"70%" ,boxShadow:" 0 3rem 3rem rgba(0, 0, 0, 0.3)"}}/>
             </div>
           </div>
 
@@ -374,12 +379,12 @@ const graduates = () => {
             }}
           >
             <div>
-              <img src="applicationpic.webp" />
+              <img src="applicationpic.webp" style={{ width:"70%", boxShadow:" 0 3rem 3rem rgba(0, 0, 0, 0.3)" }} />
             </div>
             <div style={{ marginLeft: "40px" }}>
-              <h1 style={{ marginTop: 20 }}>NSC Business</h1>
+              <h1 style={{ marginTop: 10, color: "#4a42ec", }}>NSC Business</h1>
               <br />
-              <h1 style={{ marginBottom: 30 }}>Application</h1>
+              <h1 style={{ marginBottom: 30, color: "#4a42ec", }}>Application</h1>
               <p
                 style={{
                   width: "600px",
@@ -411,9 +416,9 @@ const graduates = () => {
             }}
           >
             <div style={{ marginLeft: "40px" }}>
-              <h1 style={{ marginTop: 20 }}>Salon</h1>
+              <h1 style={{ marginTop: 10, color: "#4a42ec", }}>Salon</h1>
               <br />
-              <h1 style={{ marginBottom: 30 }}>Application</h1>
+              <h1 style={{ marginBottom: 30 , color: "#4a42ec",}}>Application</h1>
               <p
                 style={{
                   width: "600px",
@@ -435,7 +440,7 @@ const graduates = () => {
               </p>
             </div>
             <div>
-              <img src="taxipy.webp" />
+              <img src="taxipy.webp" style={{ width:"70%", boxShadow:" 0 3rem 3rem rgba(0, 0, 0, 0.3)" }}/>
             </div>
           </div>
         </div>
@@ -443,9 +448,9 @@ const graduates = () => {
 
       <div
         style={{
-          backgroundColor: "lightgrey",
+          backgroundColor: "#fff",
           height: "500px",
-          marginTop: 50,
+          marginTop: 20,
           display: "flex",
           justifyContent: "center",
           flexDirection: "column",
