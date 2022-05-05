@@ -81,7 +81,7 @@ const courses = () => {
                   {course.fullInfo}
                   <div className={styles.btnDiv}>
                     
-                    <Link href="./registration"><a><button className={styles.applyBtn}>APPLY NOW</button></a></Link>
+                    <Link href="./Payment"><a><button className={styles.applyBtn}>APPLY NOW</button></a></Link>
                   </div>
                   
               </div>

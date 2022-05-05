@@ -55,7 +55,7 @@ const registrations = () => {
                 placeholder="Enter Password"
                 required
               />
-              <span style={{marginLeft:"15px"}}>I agree to the terms & conditions</span>{" "}
+              <span style={{ paddingTop:"10px"}}>I AGREE TO THE TERMS & CONDITIONS</span>{" "}
               <input type="checkbox" className={styles.checkBox} />
               <button type="submit" className={styles.submitBtn}>Register </button>
             </form>
