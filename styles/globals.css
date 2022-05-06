@@ -63,7 +63,9 @@
     transition: 0.5s;
     letter-spacing: 3px;
 }
-
+button:hover{
+    cursor: pointer;
+}
 
 
 /* FOR RESPONSIVENESS */
