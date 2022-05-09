@@ -3,6 +3,8 @@ import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
+import { FaAngleDown } from "react-icons/fa";
+import styles from '../styles/courses.module.css'
 
 
 export default function ControlledAccordions() {
@@ -16,12 +18,12 @@ export default function ControlledAccordions() {
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
-          
+          className={styles.firstArc}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
           <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            <b>EMPIRE ACEDEMY</b>
+            <b>Pass Requirements...</b>
           </Typography>
           <Typography sx={{ color: 'text.secondary' }}>Acedemic Requirements for any Course</Typography>
         </AccordionSummary>

@@ -7,6 +7,7 @@ import Image from 'next/dist/client/image'
 import ExploreCourses from '../components/exploreCourses'
 import Testimonials from '../components/Testimonials'
 import Whychoose from '../components/whychoosempireacademy'
+import Main from '../components/Homepage'
   
 
 const imgpath = "/campus image1.jpg"
@@ -30,11 +31,12 @@ export default function Home() {
         MPIRE ACEDEMY
       </div>
     </header>
+    <Main/>
 
-    <Whychoose/>
+    {/* <Whychoose/>
     <Testimonials/>
     <ExploreCourses/>
-    
+     */}
     
     
     </>

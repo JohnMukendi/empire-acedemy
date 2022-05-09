@@ -13,7 +13,7 @@ import * as React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
+
 
 //Courses Component
 const courses = () => {
@@ -26,6 +26,8 @@ const courses = () => {
 
   var angleDown = <FaAngleDown />;
   var [angleDown, setAngle] = useState(angleDown);
+  
+  
 
   //functionality
   const display = function () {
@@ -56,7 +58,11 @@ const courses = () => {
         will provide you with the best tools to optimize your learning
         expirience here at <b>EMPIRE ACEDEMY</b>!
       </p>
-      {subjects.map((course, index) => (
+      {/* Mapping through json array */}
+      
+      {subs.map((course, index) =>  (
+      
+        
         <div>
           <Accordion>
             <AccordionSummary
@@ -71,7 +77,7 @@ const courses = () => {
             </div>
             </AccordionSummary>
             <AccordionDetails>
-              <div className={styles.subjectDiv}
+            <div className={styles.subjectDiv}
                    style={{
                     backgroundImage: `${gradient},url(/${course.image})`
                     
@@ -79,12 +85,43 @@ const courses = () => {
                   key={course.id}
               >
                   {course.fullInfo}
-                  <div className={styles.btnDiv}>
+
+              <div className={styles.courseImagesDiv}>
+                  <div>
                     
-                    <Link href="./registration"><a><button className={styles.applyBtn}>APPLY NOW</button></a></Link>
+                      
+                    
+                     
+                    <img src = {`${course.pictures}`} alt="" />
                   </div>
-                  
               </div>
+
+              {/* outputting branches */}
+              <div className={styles.courseDiv2}>
+                <div className={styles.courseDivContainer}>
+
+                
+                {subs[index].branches.map((branch,index) => (
+
+                    <div className={styles.coursePicturesDiv}>
+                      <h4 title={branch.branchName} className={styles.branchName}>{branch.branchName}</h4>
+                      <div className={styles.branchImageDiv}>
+                        <img className={styles.branchImage} src={branch.branchImage} alt={branch.branchName +'image'} />
+                      </div>
+                      
+                    </div>
+                  
+                ))}
+                </div>
+              </div>
+
+              {/* apply now button */}
+              <div className={styles.btnDiv}>
+                 
+                  <Link href="./Payment"><a><button className={styles.applyBtn}>APPLY NOW</button></a></Link>
+              </div>
+                  
+            </div>
             </AccordionDetails>
           </Accordion>
         </div>
