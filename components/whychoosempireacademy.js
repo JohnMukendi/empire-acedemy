@@ -1,24 +1,41 @@
 import reactDom from "react-dom";
 import Slide from "./swiperCamp";
-
+const logopath = "/e logo.png"
 
 const Whychoose = () => {
     return ( 
       <>
-      <Slide />
+      {/* <Slide /> */}
         <div style=
         {
             {
-                color:"white",
-                fontSize:"48px",
-                background:"black",
-                letterSpacing:"2px",
-                margin:"70px 90px",
-                padding:"0 40px ",
-                borderRadius:"20px"
+              color:'white',
+            background:'black',
+            height:'400px',
+            width:'100%',
+            padding:'60px 35px',
+            margin:'0px 0 0px 0px',
+            // display:'flex'
             }
         }>
-            Why Choose Empire Academy?
+            <h1 style={{
+              fontSize: '40px',
+              textAlign:'center',
+              margin:'20px',
+              wordSpacing:'60px'
+            }}>Why Choose   <img style={{
+              width:'100px',
+              padding:'0px',
+              margin:'-20px',
+              lineHeight:'50px',
+              // border:'white 1px solid'
+              
+            }} src={logopath} alt="logo" />     mpire Academy?</h1>
+           
+          
+        
+       
+    
             <br/>
             <br/>
             
@@ -28,44 +45,46 @@ We helped thousands of people get upskill and prepare them for the vast industri
 become part of our family!
 Make IT happen!</h1>
 <br/>
-Read our Reviews 
-<br/>
-     <img src="The True Story of the Silent Film Star Who Left MGM for His Husband.jpg"/>   
-<ul style={
-        {
-            listStyle: "none",
-            display:"flex"
-        }
-    }>
-    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-</svg>
-   </li>
-   <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-</svg>
-   </li>
-   <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-</svg>
-   </li>
 
-</ul>
 <br/>
-Graduates Satisfaction  
+
+
+            
+        </div>
+        
+<div style={{
+  display:'flex',
+  margin:'40px 0 0 0px',
+  transition: 'all 0.3s ease-in',
+ 
+ 
+}}>
+<div className="divone" style={{
+  color:'white',
+  background:'black',
+  height:'600px',
+  width:'50%',
+  borderRadius:'35px',
+  padding:'60px 60px',
+  margin:'10px 0 0px 0px',
+  
+}}><h1>Graduates Satisfaction  </h1>
 <br/>   
 <img style={
     {
         justifyContent:"center",
         padding: "20px 20px",
-        margin:"0 0 0 -20px",
-        width:"500px"
+        margin:"0 0 0 0px",
+        width:"100%",
+        height:'400px'
     }
-} src="Ann Miller circa 1941 - black & white, multiple sizes - classic beauty, old Hollywood glamour, vintage dancer_actress [730-1013].jpg"/>
+} src="❁ on Twitter.jpg"/>
 <ul style={
         {
             listStyle: "none",
-            display:"flex"
+            display:"flex",
+            justifyContent:'center',
+            
         }
     }>
     <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -89,15 +108,57 @@ Graduates Satisfaction
 </svg></li>
 </ul>
 <br/>
-<ul>
+
+</div>
+
+<div className="divtwo" style={{
+  color:'white',
+  background:'black',
+  height:'600px',
+  width:'50%',
+  borderRadius:'35px',
+  padding:'60px 60px',
+  margin:'10px 0 0px 0px',
+}}>Read our Reviews 
+<br/>
+     <img style={{
+       justifyContent:"center",
+       padding: "20px 20px",
+       margin:"0 0 0 0px",
+       width:"100%",
+       height:'400px',
+       height:'430px'
+     }} src="e logo.png"/>   
+<ul style={
+        {
+            listStyle: "none",
+            display:"flex",
+            justifyContent:'center',
+        }
+    }>
+    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+</svg>
+   </li>
+   <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+</svg>
+   </li>
+   <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+</svg>
+   </li>
+
+</ul>
+</div>
+</div>
+        <ul>
   <li></li>
   <li></li>
   <li></li>
   <li></li>
   <li></li>
 </ul>
-            
-        </div>
         </>
      );
 }

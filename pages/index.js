@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Empire Acedemy | Home</title>
+      <title>Empire Academy | Home</title>
     </Head>
     <header className={styles.header}>
     <Navbar />
@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.logoDiv2}>
           <img src={logopath} alt="logo" />
         </div>
-        MPIRE ACEDEMY
+        MPIRE ACADEMY
       </div>
     </header>
     <Whychoose />

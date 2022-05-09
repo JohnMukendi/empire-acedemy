@@ -15,7 +15,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function Slide() {
   return (
     <> 
-    <h2 style={{ textAlign:'center'}}>#SHEINcampaigns</h2>
+    
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
