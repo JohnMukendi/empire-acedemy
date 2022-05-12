@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import styles from '../styles/about.module.css'
 import Navbar from '../components/navbar';
+import Link from 'next/link';
 const about = () => {
     return ( 
         <>
@@ -134,7 +135,9 @@ const about = () => {
                 margin:'10px',
                 width:'100%',
             }}>To explore our courses</p>
-            <br/><button className='button' style={{
+            <br/>
+            <Link href="courses" > 
+            <button className='button' style={{
                 height:'10%',
                 borderRadius:'10px',
                 margin:'10px 0 0 46.1%',
@@ -156,7 +159,7 @@ const about = () => {
             }} src='200.gif' alt=''/> 
 
             </button>
-
+         </Link>
             
         <br/>
         <br/>
@@ -185,8 +188,9 @@ const about = () => {
             }}>John Mukhendi</p>
             <div class="cardcontainer"></div>
 <p style={{display:'flexend',
-margin:'10px 0 0 250%'}}>Director.
-    </p>
+margin:'10px 0 0 250%'}}>Director.<br/><br/> </p>
+<h1>Nigerian born. Originally from Lagos, certified stalker on instagram. Known to be very dangerous, frightening and a threat to females. Considered one of the high profile Predators residing in Southern Africa
+ </h1>  
                 {/* <h1  class="heading">John Mukhendi<br/> Director </h1> */}
                 <img className='img' style={{
                     height:'250px',

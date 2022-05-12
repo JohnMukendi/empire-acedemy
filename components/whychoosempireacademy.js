@@ -54,29 +54,30 @@ Make IT happen!</h1>
         
 <div style={{
   display:'flex',
-  margin:'40px 0 0 0px',
+  margin:'10% 0 0 -5%',
   transition: 'all 0.3s ease-in',
- 
+  width:'100%'
  
 }}>
 <div className="divone" style={{
   color:'white',
   background:'black',
-  height:'600px',
+  height:'10%',
   width:'50%',
   borderRadius:'35px',
   padding:'60px 60px',
-  margin:'10px 0 0px 0px',
+  margin:'0px 0 0px 10%',
   
 }}><h1>Graduates Satisfaction  </h1>
 <br/>   
 <img style={
     {
-        justifyContent:"center",
-        padding: "20px 20px",
-        margin:"0 0 0 0px",
-        width:"100%",
-        height:'400px'
+      justifyContent:"center",
+      padding: "20px 20px",
+      margin:"0px 0 0 0px",
+      width:"100%",
+      height:'200px',
+      
     }
 } src="❁ on Twitter.jpg"/>
 <ul style={
@@ -84,6 +85,7 @@ Make IT happen!</h1>
             listStyle: "none",
             display:"flex",
             justifyContent:'center',
+            margin:"0 0 0 -0.5%",
             
         }
     }>
@@ -114,20 +116,20 @@ Make IT happen!</h1>
 <div className="divtwo" style={{
   color:'white',
   background:'black',
-  height:'600px',
+  height:'10%',
   width:'50%',
   borderRadius:'35px',
   padding:'60px 60px',
-  margin:'10px 0 0px 0px',
+  margin:'0px 0 0 10%',
 }}>Read our Reviews 
 <br/>
      <img style={{
        justifyContent:"center",
        padding: "20px 20px",
-       margin:"0 0 0 0px",
+       margin:"0px 0 0 0px",
        width:"100%",
-       height:'400px',
-       height:'430px'
+       height:'250px',
+       
      }} src="e logo.png"/>   
 <ul style={
         {
